@@ -2,7 +2,6 @@
 body {
     background-color: white;
     font-family: 'Mulish', sans-serif;
-    font-size: large;
     
 }
 
@@ -35,7 +34,7 @@ body {
 
 .header-links{
   float: right;
-  
+  font-weight: 600;
 }
 
 .header-links a {
@@ -47,11 +46,13 @@ body {
 
 .header-logo-icon{
   font-size: 24px;
+  
 }
 
 .header-logo-text{
   margin-bottom: 300px;
   margin-left: 7.5px;
+  font-weight: 900;
 }
 
 .homepage-wrapper{
@@ -69,6 +70,7 @@ body {
 
 .homepage-projects h2{
   font-size: 24px;
+  font-weight: 700;
 }
 
 .homepage-project h3{
@@ -89,13 +91,12 @@ body {
 }
 
 .homepage-project p {
-  font-size: 17px;
-  
-  
-  
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .button-view {
+
     width: 100%;
     max-width: 70px;
     background-color: #665df5;
@@ -107,4 +108,29 @@ body {
     font-weight: 700;
     min-width: 60px;
     
+}
+
+.footer-wrapper{
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-cp{
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.footer-link{
+  font-size: 14px;
+  font-weight: 700;
+  
+}
+
+.home-ref{
+  text-decoration: none;
+}
+
+:visited{
+  color: black;
 }
